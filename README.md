@@ -27,17 +27,15 @@ For this assignment, you should
 
 The problems are in `hw1.tex` which is to be compiled using a LaTeX compiler.
 
-# Grading
-
-Grading will be as per the criteria specified in the accompanying file, _hw1-review.xlsx_.
-
 # Submission
 
 There are 3 parts to this assignment.
 
 ## 1.1 Solving the Problem Set
 
-Each problem in the problem set specifies the name of the function to write for it. Please make sure that your submitted functions have the indicated names. The required file names are also specified. Files with those names in your GitHub repository at the time of the deadline will be considered your submission. As your submission will be graded by your peers, please do not include identifying information in it.
+Each problem in the problem set specifies the name of the function to write for it. Please make sure that your submitted functions have the indicated names. The required file names are also specified. Files with those names in your GitHub repository at the time of the deadline will be considered your team's submission. As your submission will be graded by your peers, please do not include identifying information in it.
+
+This is a team submission on GitHub and contributes to your _Submission Score_.
 
 Deadline: 2359h on Tuesday, 28 September
 
@@ -45,13 +43,25 @@ Deadline: 2359h on Tuesday, 28 September
 
 You will provide feedback on your teammate and on the assignment. The related assignment will be available on LMS with further instructions and will be due at the same time as the problem set.
 
+This is an individual submission on LMS and contributes to your individual _Team Factor_ which is 1 by default and penalized for non-submission or non-participation in the team as assessed through peer feedback or GitHub contribution.
+
 Deadline: 2359h on Tuesday, 28 September
 
 ## 1.3 Peer Review
 
 You will review and grade 2 submissions which will be shared with you. The related assignment will be available on LMS with further instructions.
 
+This is an individual submission on LMS and contributes to your individual _Review Factor_ which is 1 by default and penalized for non-submission.
+
+This is an individual submission on LMS.
+
 Deadline: 2359h on Friday, 1 October
+
+# Grading
+
+Your submission will be graded as per the criteria specified in the accompanying file, _hw1-review.xlsx_. This will contribute to your _Submission Score_, as described above.
+
+Your individual score in this homework is the product of your Submission Score and Team Factor and Review Factor.
 
 # Discussion
 
