@@ -22,7 +22,7 @@ class MyImage:
         All integer values MUST be non-negative.
 
         Arguments:
-        self: automatic object reference.
+        self: automatic, required object reference.
         size: (xres, yres). xres columns and yres rows of virtual pixels in the created image.
         grid_width: thickness of the grid lines in the created image.
         pixel_size: size of each virtual pixel.
@@ -57,13 +57,13 @@ class MyImage:
         '''Returns color of next row-wise virtual pixel.
 
         Arguments:
-        self: automatic object reference.
+        self: automatic, required object reference.
 
         Returns:
         Color of next row-wise virtual pixel.
         '''
-        for y in range(self.img.size[1]):
-            for x in range(self.img.size[0]):
+        for y in range(self.size[1]):
+            for x in range(self.size[0]):
                 yield self.getpixel((x, y))
 
     def show(self):
@@ -72,7 +72,7 @@ class MyImage:
         Uses a suitable image viewing program installed on the system.
 
         Arguments:
-        self: automatic object reference.
+        self: automatic, required object reference.
 
         Returns:
         None.
@@ -86,7 +86,7 @@ class MyImage:
         The bounding box is represented as (xmin, ymin, xmax, ymax).
 
         Arguments:
-        self: automatic object reference.
+        self: automatic, required object reference.
         xy: (x, y) coordinates of the virutal pixel.
 
         Returns:
@@ -115,7 +115,7 @@ class MyImage:
         '''Sets the color of a virtual pixel.
 
         Arguments:
-        self: automatic object reference.
+        self: automatic, required object reference.
         xy: (x, y) coordinates of the virutal pixel.
         color: the color to be set.
 
@@ -129,7 +129,7 @@ class MyImage:
         '''Returns the color of a virtual pixel.
 
         Arguments:
-        self: automatic object reference.
+        self: automatic, required object reference.
         xy: (x, y) coordinates of the virutal pixel.
 
         Returns:
@@ -145,7 +145,7 @@ class MyImage:
         value.
 
         Arguments:
-        self: automatic object reference.
+        self: automatic, required object reference.
 
         Returns:
         The contained virtual pixels.
@@ -161,15 +161,16 @@ class MyImage:
         '''Copy data to virtual pixels.
 
         data is a list of colors which will be assgined row-wise to the virtual
-        pixels. As many colors are assigned as poassible. That, until either the
-        list of the virtual pixels runs out.
+        pixels. As many colors are assigned as poassible. That is, until either
+        the list or the virtual pixels run out.
 
         Arguments:
-        self: automatic object reference.
+        self: automatic, required object reference.
         data: list of colors.
 
         Returns:
         None.
+
         '''
         # Find out the number of colors to assign.
         xres, yres = self.size
@@ -183,7 +184,7 @@ class MyImage:
         '''Set every virtual pixel to color.
 
         Arguments:
-        self: automatic object reference.
+        self: automatic, required object reference.
         color: the color to fill.
 
         Returns:
